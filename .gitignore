@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Capacitor / Android (optional packaging)
+android/
+ios/
+capacitor.config.ts
+# Supabase CLI local state
+supabase/.temp/
